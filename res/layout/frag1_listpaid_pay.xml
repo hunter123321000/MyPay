@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/ll_total_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_TB_20"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:layout_marginTop="@dimen/margin_TB_20"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_account1"
+            android:textSize="@dimen/txt_size_20" />
+
+        <TextView            
+            android:textStyle="bold"
+            android:id="@+id/lb_total_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_account2"
+            android:textSize="@dimen/txt_size_20" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pay_now"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_total_account"
+        android:layout_marginBottom="@dimen/margin_TB_10"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:text="@string/btn_pay_now"
+        android:textColor="@color/dark_red" />
+
+    <Button
+        android:id="@+id/btn_pay_later"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pay_now"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:text="@string/btn_pay_later"
+        android:textColor="@color/dark_red" />
+
+</RelativeLayout>

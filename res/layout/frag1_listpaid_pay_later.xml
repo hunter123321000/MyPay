@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_total_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_TB_20"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:layout_marginTop="@dimen/margin_TB_20"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_total_account2"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/lb_total_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_account2"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_total_account"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/lb_send_pay_info_type" />
+
+        <Button
+            android:id="@+id/btn_send_pay_info_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send_pay_info_email" />
+
+        <Button
+            android:id="@+id/btn_send_pay_info_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send_pay_info_phone" />
+
+        <Button
+            android:id="@+id/btn_send_pay_info_qrcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send_pay_info_qrcode" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPay</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- Login -->
+    <string name="lb_login_hint">請輸入登入帳號與密碼</string>
+    <string name="btn_login">登入</string>
+
+    <string-array name="astr_tabhost">
+        <item>首頁</item>
+        <item>商品管理</item>
+        <item>儲值管理</item>
+        <item>訂單紀錄</item>
+    </string-array>
+    <!-- 首頁 -->
+    <string-array name="astr_page1">
+        <item>快速付款</item>
+        <item>清單付款</item>
+        <item>儲值扣款</item>
+    </string-array>
+
+    <string name="btn_logout">登出</string>
+    <string name="btn_prepaid">儲值付款</string>
+    <string name="btn_singalpaid">單筆付款</string>
+    <string name="sp_prompt">商品資訊</string>
+    <string name="lb_input_account">總金額</string>
+    <string name="btn_pay">付款</string>
+    <string name="et_customer_hint">買家資訊、姓名、行動電話</string>
+    <string name="btn_pay_now">即時線上付款</string>
+    <string name="btn_pay_later">稍後自行付款</string>
+    <string name="lb_consume_account1">消費金額金額為新台幣</string>
+    <string name="lb_consume_account2">元整</string>
+    <string name="btn_back">返回</string>
+    <string name="lb_consume_total_account">總計消費金額金額為新台幣</string>
+    <string name="lb_input_phone_hint">*手機號碼必填</string>
+    <string name="lb_input_phone_hint2">手機號碼</string>
+    <string name="lb_input_name">姓名</string>
+    <string name="lb_input_email">電子郵件</string>
+    <string name="lb_declaration">MYPAY服務條款</string>
+    <string name="et_cardnum_hint">卡號</string>
+    <string name="lb_expiration_date">有效期限</string>
+    <string name="et_expiration_month_hint">MM</string>
+    <string name="et_expiration_year_hint">YY</string>
+    <string name="lb_verify_code">後三碼</string>
+    <string name="et_verify_code_hint">***</string>
+    <string name="btn_confirm">確認送出</string>
+    <string name="lb_consume_total_account2">共計花費新台幣</string>
+    <string name="lb_send_pay_info_type">請選擇付款資訊的發送方式</string>
+    <string name="btn_send_pay_info_email">發送至消費者電子信箱</string>
+    <string name="btn_send_pay_info_phone">發送至消費者手機簡訊</string>
+    <string name="btn_send_pay_info_qrcode">產生QR Code 圖示</string>
+
+</resources>

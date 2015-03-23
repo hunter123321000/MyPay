@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_forgetpwd">#FF165A77</color>
+    <color name="gray">#999999</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gray">#4B4B4B</color>
+    <color name="btn_showpwd">#FF734B30</color>
+    <color name="black">#000000</color>
+    <color name="blue_light">#1A84EF</color>
+    <color name="blue">#0065C3</color>
+    <color name="blue_light2">#0068B7</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#E15C01</color>
+    <color name="dark_red">#E20423</color>
+    <color name="light_red">#E60012</color>
+    <color name="light_gray">#7E7E7E</color>
+    <color name="light_gray2">#707070</color>
+    <color name="light_gray4">#7D7D7D</color>
+    <color name="light_gray5">#EAE8E1</color>
+    <color name="light_gray6">#A0A0A0</color>
+    <color name="light_gray7">#898989</color>
+    <color name="dark_green">#008883</color>
+    <color name="light_green">#658515</color>
+    <color name="light_orange">#ff8410</color>
+    <color name="light_orange2">#eb6100</color>
+    <color name="light_orange3">#f3eb1c</color>
+    <color name="light_orange4">#ed712d</color>
+    <color name="light_orange5">#C86F15</color>
+    <color name="dark_orange">#f39c1c</color>
+    <color name="dark_orange2">#C86F15</color>
+    <color name="dark_orange3">#ED5736</color>
+    <color name="dark_orange4">#F30012</color>
+    <color name="dark_blue">#0158B2</color>
+    <color name="dark_yellow">#c95a00</color>
+    <color name="dark_yellow2">#a87f4c</color>
+    <color name="dark_yellow3">#ab7f4c</color>
+    <color name="dark_black">#0a0a0a</color>
+    <color name="withdraw_failed">#f01e0e</color>
+    <color name="withdraw_apply_back">#0158b2</color>
+    <color name="withdraw_apply">#179d17</color>
+    <color name="transaction_bepay">#D80000</color>
+    <color name="transaction_haspay">#3A87AD</color>
+    <color name="transaction_cancel">#7B5F37</color>
+    <color name="transaction_money_apply">#FC6F10</color>
+    <color name="transaction_money_complete">#468847</color>
+    <color name="transaction_money_reject">#D80000</color>
+    <color name="transaction_success">#468847</color>
+    <color name="transaction_delivery">#C95A00</color>
+    <color name="bg">#deececec</color>
+    <color name="bad_evaluate">#d80000</color>
+    <color name="total_evaluate">#ffa10d</color>
+    <color name="evaluate_weight">#3A87AD</color>
+    <color name="finder_mask">#60000000</color>
+
+</resources>

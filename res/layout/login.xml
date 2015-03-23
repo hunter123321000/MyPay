@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/lb_login_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_TB_20"
+        android:gravity="center_horizontal"
+        android:text="@string/lb_login_hint" />
+
+    <EditText
+        android:id="@+id/et_userid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lb_login_hint"
+        android:layout_marginLeft="@dimen/margin_LR_20"
+        android:layout_marginRight="@dimen/margin_LR_20"
+        android:layout_marginTop="@dimen/margin_TB_10" />
+
+    <EditText
+        android:id="@+id/et_userpwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_userid"
+        android:layout_marginLeft="@dimen/margin_LR_20"
+        android:layout_marginRight="@dimen/margin_LR_20"
+        android:layout_marginTop="@dimen/margin_TB_10" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_userpwd"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_login" />
+
+</RelativeLayout>

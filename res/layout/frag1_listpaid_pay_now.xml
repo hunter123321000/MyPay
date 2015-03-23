@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_total_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_TB_20"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:layout_marginTop="@dimen/margin_TB_20"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_total_account"
+            android:textSize="@dimen/txt_size_16" />
+
+        <TextView
+            android:id="@+id/lb_total_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb_consume_account2"
+            android:textSize="@dimen/txt_size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lb_input_phone_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_total_account"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:text="@string/lb_input_phone_hint"
+        android:textColor="@color/dark_red"
+        android:textSize="@dimen/txt_size_14" />
+
+    <LinearLayout
+        android:id="@+id/ll_et_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lb_input_phone_hint"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10" >
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/lb_input_phone_hint2"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="@string/lb_input_name" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_et_input"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:hint="@string/lb_input_email" />
+
+    <TextView
+        android:id="@+id/lb_buyer_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_email"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10" />
+
+    <ImageView
+        android:id="@+id/img_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lb_buyer_info"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/lb_declaration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lb_buyer_info"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:layout_toRightOf="@id/img_switch"
+        android:text="@string/lb_declaration" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/ll_btn_card_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lb_declaration"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10" >
+
+        <Button
+            android:id="@+id/btn_visa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_master"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_jcb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_card_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_btn_card_type"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_card_num1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/et_cardnum_hint" />
+
+            <EditText
+                android:id="@+id/et_card_num2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/et_cardnum_hint" />
+
+            <EditText
+                android:id="@+id/et_card_num3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/et_cardnum_hint" />
+
+            <EditText
+                android:id="@+id/et_card_num4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/et_cardnum_hint" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lb_expiration_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/lb_expiration_date" />
+
+            <EditText
+                android:id="@+id/et_expiration_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/lb_expiration_date"
+                android:hint="@string/et_expiration_month_hint" />
+
+            <TextView
+                android:id="@+id/lb_expiration_date_split"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/et_expiration_month"
+                android:layout_alignBottom="@+id/et_expiration_month"
+                android:layout_toRightOf="@+id/et_expiration_month"
+                android:text="/" />
+
+            <EditText
+                android:id="@+id/et_expiration_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/lb_expiration_date_split"
+                android:hint="@string/et_expiration_year_hint" />
+
+            <EditText
+                android:id="@+id/et_verify_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hint="@string/et_verify_code_hint" />
+
+            <TextView
+                android:id="@+id/lb_verify_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/et_verify_code"
+                android:layout_alignBottom="@+id/et_verify_code"
+                android:layout_toLeftOf="@+id/et_verify_code"
+                android:hint="@string/lb_verify_code" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_confirm"
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_card_info"
+        android:layout_marginLeft="@dimen/margin_LR_10"
+        android:layout_marginRight="@dimen/margin_LR_10" />
+
+</RelativeLayout>
