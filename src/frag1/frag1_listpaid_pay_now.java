@@ -51,6 +51,7 @@ public class frag1_listpaid_pay_now extends Activity {
 			case R.id.btn_confirm:// ½T»{°e¥X
 				break;
 			case R.id.btn_title_left:
+				finish();
 				break;
 			}
 		}

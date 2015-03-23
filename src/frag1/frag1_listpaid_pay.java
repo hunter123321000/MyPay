@@ -68,7 +68,7 @@ public class frag1_listpaid_pay extends Activity {
 				startActivity(i);
 				break;
 			case R.id.btn_title_left:
-
+				finish();
 				break;
 			}
 		}
